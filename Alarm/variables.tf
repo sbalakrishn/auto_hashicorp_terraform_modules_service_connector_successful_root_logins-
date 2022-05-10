@@ -34,18 +34,6 @@ variable "tenancy_id" {
    description = "OCID of Tenancy"
 }
 
-variable "api_fingerprint" {
-   type = string
-   default = "b4:d0:21:fc:e7:74:61:fd:16:5d:75:ed:d0:f6:67:78"
-   description = "Fingerprints"
-}
-
-variable "api_private_key_path" {
-   type = string
-   default = "c:/Users/sreejith_b/.oci/key_name.pem"
-   description = "private access key"
- }
-
  variable "subscription_endpoint" {
    type = string
    default = "ops-auth-notice@8x8.com"
